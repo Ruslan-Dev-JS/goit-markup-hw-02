@@ -18,7 +18,7 @@ ul, ol {
 
 a {
   text-decoration: none;
-  color: inherit; /* Наслідувати колір, щоб було простіше стилізувати */
+  color: inherit;
 }
 
 /* Логотип */
@@ -50,7 +50,7 @@ a {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #404BBF;
   outline: none;
 }
 
@@ -101,7 +101,6 @@ a {
   cursor: pointer;
   padding: 12px 32px;
   border: none;
-  border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
@@ -131,7 +130,6 @@ a {
   background-color: #FFFFFF;
   text-align: center;
   padding: 20px;
-  border-radius: 4px;
 }
 
 .card-title {
@@ -154,19 +152,19 @@ a {
 /* Портфоліо */
 .portfolio-cards {
   padding: 40px 20px;
+  text-align: center;
 }
 
 .portfolio-cards ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .portfolio-cards li {
   list-style: none;
+  display: inline-block;
+  margin: 12px;
   max-width: 360px;
   text-align: center;
 }
@@ -175,16 +173,11 @@ a {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px;
   object-fit: cover;
   margin-bottom: 12px;
 }
 
 /* Футер */
-:root {
-  --footer-text-color: #f4f4fd;
-}
-
 .site-footer {
   background-color: #2e2f42;
   padding: 40px 0;
@@ -200,11 +193,11 @@ a {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-text-color);
+  color: #f4f4fd;
   max-width: 264px;
   margin: 16px auto 0;
 }
 
 .footer-span {
-  color: var(--footer-text-color);
+  color: #f4f4fd;
 }
