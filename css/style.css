@@ -47,7 +47,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  transition: color 0.3s ease;
 }
 
 .nav-link:hover,
@@ -67,7 +66,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 .contact-link:hover{
@@ -119,7 +117,6 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .hero-button:hover {
