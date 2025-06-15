@@ -26,7 +26,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .studio_logo {
@@ -40,14 +39,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #404BBF;
-  outline: none;
 }
 
 /* Address */
