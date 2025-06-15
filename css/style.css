@@ -51,7 +51,7 @@ a {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:active {
   color: #404BBF;
 }
 
@@ -72,7 +72,6 @@ a {
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
-  outline: none;
 }
 
 .feature-title {
