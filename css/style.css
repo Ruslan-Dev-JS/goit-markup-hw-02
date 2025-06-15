@@ -1,46 +1,76 @@
-*{
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    list-style-type: none;
-    color: #434455;
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  list-style-type: none;
+  color: #434455;
 }
 
-.body{
-    background-color: #FFFFFF;
+.body {
+  background-color: #FFFFFF;
 }
 
-a { 
-    text-decoration: none;
-}
-.header-navigator-logo{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+a {
+  text-decoration: none;
 }
 
-.portfolio-cards img{
-    background-size: contain;
-
+.header-navigator-logo {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-button{
-    cursor: pointer;
+.portfolio-cards img {
+  background-size: contain;
 }
-.button-order{
 
-} 
- .header-contacts a {
-    color: #2E2F42; /* базовий колір */
-    text-decoration: none;
-    transition: color 0.3s;
+button {
+  cursor: pointer;
+}
+
+/* Заміна button-order на правильний клас hero-button */
+.hero-button {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404BBF;
+}
+
+/* Стилі для секції */
+.hero-section {
+  background-color: #2e2f42;
+}
+
+/* Стилі для заголовка h1 */
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.header-contacts a {
+  color: #2E2F42;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .header-contacts a:hover,
 .header-contacts a:focus {
-    color: #404BBF; /* активний колір із style guide */
+  color: #404BBF;
 }
 
 .logo {
@@ -54,7 +84,6 @@ button{
   font-style: normal;
   text-decoration: none;
 }
-
 
 .studio-logo {
   color: #2e2f42;
@@ -70,6 +99,11 @@ button{
   transition: color 0.3s ease;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -82,4 +116,40 @@ button{
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
+}
+
+
+/* Заголовок секції (можна перевикористати і для інших секцій) */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Заголовки карток */
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* Текст карток */
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Зображення всередині портфоліо */
+.portfolio-cards img {
+  width: 360px;
+  height: auto;
+  background-size: contain;
+  display: block;
 }
