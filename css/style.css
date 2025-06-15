@@ -70,9 +70,12 @@ a {
   transition: color 0.3s ease;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover{
   color: #404bbf;
+}
+
+.contact-link:focus{
+    color: #404bbf;
 }
 
 .feature-title {
@@ -119,9 +122,11 @@ a {
   transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
-.hero-button:focus,
-.hero-button:active {
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus{
     background-color: #404BBF;
 }
 
