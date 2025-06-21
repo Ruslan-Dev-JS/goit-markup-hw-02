@@ -17,6 +17,78 @@ a {
   color: inherit;
 }
 
+
+/* Стилі хедера */
+.site-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/* Контейнер */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Навігація */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Логотип */
+.logo-class {
+  margin-right: 76px;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+/* Меню */
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 24px 0;
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Контакти */
+.contact_address {
+  font-style: normal;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
 .feature-title {
   font-weight: 500;    
   font-size: 20px;      
@@ -99,6 +171,48 @@ a {
   background-color: #2e2f42;
 }
 
+/* Hero-секція */
+.hero-section {
+  padding: 188px 0;
+  background-color: #2e2f42; /* якщо в макеті є фон */
+  text-align: center;
+}
+
+/* Контейнер */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Заголовок */
+.hero-title {
+  max-width: 496px;
+  margin: 0 auto 48px;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+}
+
+/* Кнопка */
+.hero-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--iris, #4d5ae5);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px 32px;
+}
+
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -108,16 +222,6 @@ a {
 }
 
 /* Кнопка в секції героя */
-.hero-button {
-  background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-}
 
 .hero-button:hover {
     background-color: #404BBF;
@@ -128,9 +232,121 @@ a {
 }
 
 /* Команда */
+
+
+.features-section {
+  padding: 120px 0;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.feature-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.feature-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+
 .team-section {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
+
+/* Секція */
+.team-section {
+  padding: 120px 0;
+}
+
+/* Контейнер */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Прихований заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Список */
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Пункт списку */
+.team-card {
+  flex-basis: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Заголовок в картці */
+.card-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+/* Параграф */
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
 
 .section-title {
   font-size: 36px;
@@ -159,6 +375,56 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.portfolio-cards {
+  padding: 120px 0;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.card-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+
 
 
 /* Футер */
